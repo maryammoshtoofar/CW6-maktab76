@@ -1,0 +1,65 @@
+*{
+        box-sizing: border-box;
+}
+.container{
+       width: 100vw;
+       height: 100vh;
+       background-image: url("./images/background.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.main_box{
+        background-color:#fff;
+        display: flex;
+        flex-direction: column;
+}     
+.first_row,.second_row{
+        display: flex;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+        width: 250px;
+        height: 250px;
+}
+.box1,.box3,.box5{
+        padding: 20px;
+}
+
+.watch{
+        width: 250px;
+        height: 250px;
+}
+.man{
+        width: 250px;     
+        height: 250px;
+}  
+.laptop{
+        width: 250px;    
+        height: 250px;
+}
+.fa-camera{
+        background-color: #c3ced8;
+        padding: 15px;
+        border-radius: 50%;
+}
+p{
+        color: #a09b95;
+        font-size: 14px;
+}
+.fa-file-alt{
+        background-color: #c3ced8;
+        padding: 13px 15px;
+        
+        border-radius: 50%;
+}
+.material-icons{
+        background-color: #c3ced8;
+        padding: 10px;
+        border-radius: 50%;
+}
+body{
+        font-family: 'Trebuchet MS', sans-serif;
+
+}
